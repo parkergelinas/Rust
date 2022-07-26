@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+pdas = "4gCDtNYxMY18zu9NHu9wM978yyYwSpRxRXgztLVxqvNP"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "C:\\Users\\parke\\.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
